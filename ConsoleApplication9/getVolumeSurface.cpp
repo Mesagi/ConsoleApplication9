@@ -34,13 +34,7 @@ void judgeSize(BOX* box) {
 	else if (box->size > 60) {
 		box->size = 80;
 	}
-	else if (box->size > 40) {
-		box->size = 60;
-	}
-	else if (box->size > 20) {
-		box->size = 40;
-	}
 	else {
-		box->size = 20;
+		box->size = 60;
 	}
 }
